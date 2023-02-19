@@ -37,7 +37,8 @@
     "react-dom": "^18.2.0",
     "react-query": "^3.39.1",
     "react-router-dom": "^6.3.0",
-    "yup": "^0.32.11"
+    "yup": "^0.32.11",
+    "serverless-single-page-app-plugin": "file:./.serverless-plugins"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -58,8 +59,9 @@
     "msw": "^0.43.1",
     "prettier": "2.7.1",
     "serverless": "^3.20.0",
+    "serverless-examples": "github:serverless/examples#master",
     "serverless-finch": "^4.0.0",
-    "serverless-s3-cleaner": "^2.0.1",
+    "serverless-s3-cleaner": "^2.0.2",
     "typescript": "^4.7.4",
     "vite": "^2.9.13",
     "vitest": "^0.17.1"
